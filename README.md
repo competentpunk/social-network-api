@@ -1,7 +1,7 @@
 # social-network-api
 
 https://github.com/competentpunk/social-network-api
-
+ADD SCREENCASTIFY LINK
 
 ## Description
 
@@ -21,6 +21,7 @@ This application operates the data management of a social network api using Mong
 ## Installation
 
 See Screencastify for video demonstration
+ADD SCREENCASTIFY LINK
 
 ## License
 

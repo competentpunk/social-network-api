@@ -2,15 +2,15 @@ const { ObjectId } = require('mongoose').Types;
 const { User, Thought } = require('../models');
 
 // Get all users
-const headCount = async () => {
+const getAllUsers = async () => {
   try {
     const numberOfUsers = await User.findAll();
     res.json(numberOfUsers);
   } catch (err) {
     res.status(500).json(err);
   }
-  const numberOfStudents = await Student.aggregate();
-  return numberOfStudents;
+  const numberOfUsers = await User.aggregate();
+  return numberOfUsers;
 }
 
 // Execute the aggregate method on the Student model and calculate the overall grade by using the $avg operator
